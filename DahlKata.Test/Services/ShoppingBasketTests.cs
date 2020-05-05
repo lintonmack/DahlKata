@@ -22,7 +22,6 @@ namespace DahlKata.Test.Services
             var subject = new ShoppingBasket(book);
 
             // Act
-
             var result = subject.CalculateShoppingBasketTotal();
 
             // Assert
