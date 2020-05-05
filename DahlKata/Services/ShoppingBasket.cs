@@ -1,13 +1,14 @@
 ﻿using DahlKata.Core.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace DahlKata.Core.Services
 {
     public class ShoppingBasket
     {
-        private Book book;
+        private Book books;
 
         public IEnumerable<Book> BooksInBasket { get; set; }
         public float TotalPrice { get; set; }
@@ -17,14 +18,21 @@ namespace DahlKata.Core.Services
             BooksInBasket = books;
         }
 
-        public ShoppingBasket(Book book)
+        public ShoppingBasket(Book books)
         {
-            this.book = book;
+            this.books = books;
         }
 
-        public int CalculateShoppingBasketTotal()
+        public double CalculateShoppingBasketTotal()
         {
-            return 8;
+            if (this.BooksInBasket.Count() == 1)
+            {
+                return 8;
+            }
+
+            var total = (this.BooksInBasket.Count() * 8);
+
+            return total - (total * 0.05);
         }
     }
 }
