@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Code\DahlKata\DahlKata" t="IncludeFlat">
+      <e p="DahlKata" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DahlKata.Core.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Author.cs" t="Include" />
+          <e p="Book.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Services" t="Include">
+          <e p="BookSortService" t="Include">
+            <e p="NonRoaldDahlBookService" t="Include">
+              <e p="INonRoaldDahlBookSort.cs" t="Include" />
+              <e p="NonRoaldDahlBookSort.cs" t="Include" />
+            </e>
+            <e p="RoaldDahlBookSortService" t="Include">
+              <e p="IRoaldDahlBookSort.cs" t="Include" />
+              <e p="RoaldDahlBookSort.cs" t="Include" />
+            </e>
+          </e>
+          <e p="PriceGeneratorService" t="Include">
+            <e p="NonRoaldDahlPriceGeneratorService" t="Include">
+              <e p="INonRoaldDahlPriceGenerator.cs" t="Include" />
+              <e p="NonRoaldDahlPriceGenerator.cs" t="Include" />
+            </e>
+            <e p="RoaldDahlPriceGeneratorService" t="Include">
+              <e p="IRoaldDahlPriceGenerator.cs" t="Include" />
+              <e p="RoaldDahlPriceGenerator.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ShoppingBasketService" t="Include">
+            <e p="IShoppingBasket.cs" t="Include" />
+            <e p="ShoppingBasket.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="DahlKata.sln" t="IncludeFlat" />
+      <e p="DahlKata.Test" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DahlKata.Test.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Services" t="Include">
+          <e p="ShoppingBasketService" t="Include">
+            <e p="ShoppingBasketTests.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Linton\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\Linton\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\Linton\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\Linton\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Linton\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Linton\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\Linton\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Linton\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Linton\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DahlKata.-1141153848.00" t="ExcludeRecursive" />
+  </component>
+</project>

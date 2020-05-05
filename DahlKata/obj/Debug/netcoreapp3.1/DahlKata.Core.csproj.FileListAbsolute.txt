@@ -1,0 +1,9 @@
+C:\Code\DahlKata\DahlKata\DahlKata\bin\Debug\netcoreapp3.1\DahlKata.Core.deps.json
+C:\Code\DahlKata\DahlKata\DahlKata\bin\Debug\netcoreapp3.1\DahlKata.Core.dll
+C:\Code\DahlKata\DahlKata\DahlKata\bin\Debug\netcoreapp3.1\DahlKata.Core.pdb
+C:\Code\DahlKata\DahlKata\DahlKata\obj\Debug\netcoreapp3.1\DahlKata.Core.csprojAssemblyReference.cache
+C:\Code\DahlKata\DahlKata\DahlKata\obj\Debug\netcoreapp3.1\DahlKata.Core.csproj.CoreCompileInputs.cache
+C:\Code\DahlKata\DahlKata\DahlKata\obj\Debug\netcoreapp3.1\DahlKata.Core.AssemblyInfoInputs.cache
+C:\Code\DahlKata\DahlKata\DahlKata\obj\Debug\netcoreapp3.1\DahlKata.Core.AssemblyInfo.cs
+C:\Code\DahlKata\DahlKata\DahlKata\obj\Debug\netcoreapp3.1\DahlKata.Core.dll
+C:\Code\DahlKata\DahlKata\DahlKata\obj\Debug\netcoreapp3.1\DahlKata.Core.pdb

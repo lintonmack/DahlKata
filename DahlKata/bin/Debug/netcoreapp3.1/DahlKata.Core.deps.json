@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DahlKata.Core/1.0.0": {
+        "runtime": {
+          "DahlKata.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DahlKata.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

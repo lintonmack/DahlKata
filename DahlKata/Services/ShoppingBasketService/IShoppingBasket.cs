@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DahlKata.Core.Services
+namespace DahlKata.Core.Services.ShoppingBasketService
 {
     interface IShoppingBasket
     {
