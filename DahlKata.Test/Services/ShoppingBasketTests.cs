@@ -38,7 +38,6 @@ namespace DahlKata.Test.Services
             {
                 new Book("Matilda", author, 8),
                 new Book("The BFG", author, 8)
-
             };
 
             var subject = new ShoppingBasket(book);
@@ -47,7 +46,29 @@ namespace DahlKata.Test.Services
             var result = subject.CalculateShoppingBasketTotal();
 
             // Assert
-            result.Should().Be(15.20F);
+            result.Should().Be(15.20);
+        }
+
+        [Fact]
+        public void ShouldReturnTenPercentDiscountForThreeDifferentBooks()
+        {
+             // Arrange
+            var author = new Author("Roald Dahl");
+
+            var book = new List<Book>
+            {
+                new Book("Matilda", author, 8),
+                new Book("The BFG", author, 8),
+                new Book("The Witches", author, 8)
+            };
+
+            var subject = new ShoppingBasket(book);
+
+            // Act
+            var result = subject.CalculateShoppingBasketTotal();
+
+            // Assert
+            result.Should().Be(21.60);
         }
     }
 }
