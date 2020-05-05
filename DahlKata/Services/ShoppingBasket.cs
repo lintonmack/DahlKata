@@ -35,8 +35,12 @@ namespace DahlKata.Core.Services
             {
                 return (totalPricePreDiscount - (totalPricePreDiscount * 0.05));
             }
+            else if (numberOfUniqueBooks == 3)
+            {
+                return (totalPricePreDiscount - (totalPricePreDiscount * 0.10));
+            }
 
-            return (totalPricePreDiscount - (totalPricePreDiscount * 0.10)); ;
+            return (totalPricePreDiscount - (totalPricePreDiscount * 0.20));
         }
     }
 }
