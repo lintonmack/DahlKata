@@ -8,8 +8,6 @@ namespace DahlKata.Core.Services
 {
     public class ShoppingBasket
     {
-        private Book books;
-
         public IEnumerable<Book> BooksInBasket { get; set; }
         public float TotalPrice { get; set; }
 
@@ -18,21 +16,27 @@ namespace DahlKata.Core.Services
             BooksInBasket = books;
         }
 
-        public ShoppingBasket(Book books)
-        {
-            this.books = books;
-        }
 
         public double CalculateShoppingBasketTotal()
         {
-            if (this.BooksInBasket.Count() == 1)
+
+            var numberOfUniqueBooks = BooksInBasket.Where(b => b.Author.Name == "Roald Dahl")
+                                                    .Distinct()
+                                                    .Count();
+
+            var priceOfABook = BooksInBasket.First().Price;
+            var totalPricePreDiscount = priceOfABook * numberOfUniqueBooks;
+
+            if (numberOfUniqueBooks == 1) 
+            { 
+                return totalPricePreDiscount; 
+            }
+            else if (numberOfUniqueBooks == 2) 
             {
-                return 8;
+                return (totalPricePreDiscount - (totalPricePreDiscount * 0.05));
             }
 
-            var total = (this.BooksInBasket.Count() * 8);
-
-            return total - (total * 0.05);
+            return (totalPricePreDiscount - (totalPricePreDiscount * 0.10)); ;
         }
     }
 }
